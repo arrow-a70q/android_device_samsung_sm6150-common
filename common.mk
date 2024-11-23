@@ -249,10 +249,6 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0-service.samsung \
     libkeymaster4_1support.vendor
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service.samsung-sm6150
-
 # Media
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
